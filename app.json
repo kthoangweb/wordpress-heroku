@@ -63,7 +63,7 @@
   },
   "addons": [
 	{
-	  "plan": "jawsdb-maria:kitefin"
+	  "plan": "heroku-postgresql:hobby-dev"
 	}
   ],
   "buildpacks": [
