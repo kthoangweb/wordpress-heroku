@@ -26,6 +26,8 @@ define( 'PG4WP_INSECURE', false);
 
 // This defines the directory where PG4WP files are loaded from
 //   3 places checked : wp-content, wp-content/plugins and the base directory
+echo ABSPATH;
+
 if( file_exists( ABSPATH.'/app/pg4wp'))
 	define( 'PG4WP_ROOT', ABSPATH.'/app/pg4wp');
 else if( file_exists( ABSPATH.'/app/plugins/pg4wp'))
