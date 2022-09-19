@@ -64,12 +64,6 @@
   "addons": [
 	{
 	  "plan": "jawsdb-maria:kitefin"
-	},
-	{
-	  "plan": "scheduler:standard"
-	},
-	{
-	  "plan": "heroku-redis:hobby-dev"
 	}
   ],
   "buildpacks": [
