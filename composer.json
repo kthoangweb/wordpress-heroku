@@ -24,6 +24,7 @@
   "require": {
 	"php": ">=7.0",
 	"ext-gettext": "*",
+	"ext-mbstring": "*",
 	"composer/installers": "1.5.0",
 	"vlucas/phpdotenv": "2.4.0",
 	"wp-cli/wp-cli" : "1.4.1",

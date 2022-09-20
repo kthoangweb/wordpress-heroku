@@ -3929,11 +3929,13 @@
     "prefer-lowest": false,
     "platform": {
         "php": ">=7.0",
-        "ext-gettext": "*"
+        "ext-gettext": "*",
+        "ext-mbstring": "*"
     },
     "platform-dev": [],
     "platform-overrides": {
         "php": "7.0",
-        "ext-gettext": "1.0"
+        "ext-gettext": "1.0",
+        "ext-mbstring": "1.0"
     }
 }
