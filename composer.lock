@@ -3600,47 +3600,7 @@
                 "wordpress"
             ],
             "time": "2017-11-13T15:28:04+00:00"
-        },
-        {
-            "name": "wpackagist-plugin/all-in-one-seo-pack",
-            "version": "2.4.4",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/all-in-one-seo-pack/",
-                "reference": "tags/2.4.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.4.4.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/all-in-one-seo-pack/"
-        },
-        {
-            "name": "wpackagist-plugin/debug-bar",
-            "version": "0.9",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/debug-bar/",
-                "reference": "tags/0.9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/debug-bar.0.9.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/debug-bar/"
-        },
+        },        
         {
             "name": "wpackagist-plugin/bck-tu-dong-xac-nhan-thanh-toan-chuyen-khoan-ngan-hang",
             "version": "2.0.1",
@@ -3780,46 +3740,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/redis-cache/"
-        },
-        {
-            "name": "wpackagist-plugin/sendgrid-email-delivery-simplified",
-            "version": "1.11.7",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/sendgrid-email-delivery-simplified/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/sendgrid-email-delivery-simplified.zip?timestamp=1503913160",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
-        },
-        {
-            "name": "wpackagist-plugin/wordfence",
-            "version": "6.3.22",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wordfence/",
-                "reference": "tags/6.3.22"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordfence.6.3.22.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wordfence/"
         }
     ],
     "packages-dev": [
