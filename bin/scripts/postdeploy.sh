@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 cd $HOME
-
+[[ -z $HEROKU_APP_NAME ]] && HEROKU_APP_NAME='qhwp1'
 # only for auto deployments or as soon as labs / heroku env becomes available in app.json
 if [ ! -z "$HEROKU_APP_NAME" ]; then
 
