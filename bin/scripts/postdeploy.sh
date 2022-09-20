@@ -12,7 +12,7 @@ if [ ! -z "$HEROKU_APP_NAME" ]; then
 	wp_email="github@philippheuer.me"
 
 	# install pg4wp
-	git clone https://github.com/kevinoid/postgresql-for-wordpress.git /tmp/
+	git clone https://github.com/kevinoid/postgresql-for-wordpress.git /tmp/postgresql-for-wordpress
 	mv /tmp/postgresql-for-wordpress/pg4wp $HOME/web/wp/wp-content/
 	cp $HOME/web/wp/wp-content/pg4wp/db.php $HOME/web/wp/wp-content/db.php
 
