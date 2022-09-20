@@ -160,7 +160,7 @@
 	                "type": "zip"
 	            }
 	        }
-	    },
+	    }
 	],
   "scripts": {
 	"test": [
